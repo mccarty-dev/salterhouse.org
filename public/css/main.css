@@ -1,0 +1,178 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100%;
+    margin: 0;
+
+}
+#header .title a:visited {
+    color: #636b6f;
+}
+#fb-icon {
+    font-size: 33px;
+    color: #636b6f;
+}
+
+.article p {
+    font-size: 22px;
+}
+
+#facebook-slider {
+    position: fixed;
+    bottom: -325px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.facebook-slideup-button {
+    height: 35px;
+    border-radius: 15px 15px 0 0;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.expandfb {
+    bottom:75px !important;
+}
+
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+
+.content {
+    text-align: center;
+}
+
+
+.title {
+    font-size: 84px;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.home-banner {
+    width: 75%;
+    padding-bottom: 25px;
+
+
+}
+
+.article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    padding: 0 15px;
+}
+
+.content:last-of-type {
+    margin-bottom: 150px;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    height: 75px;
+    color: white;
+}
+
+#footer a {
+
+    text-decoration: none;
+ color: blue;
+    margin-left: 5px;
+}
+
+.visit .admission-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.admission-table table {
+    text-align: left;
+}
+.admission-table td {
+}
+.admission-table td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.visit iframe {
+    border: 1px solid darkgray;
+    border-radius: 25px;
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 50px;
+    }
+    .links {
+        flex-direction: column;
+
+    }
+    .links > a {
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .links > a:hover {
+        color: lightblue;
+    }
+}
